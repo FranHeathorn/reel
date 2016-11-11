@@ -45,7 +45,7 @@ h3 {
 p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decoration:none}html,body{width:100%;height:100%}body{background-color:#fff;font-family:"Lato",sans-serif;color:#424242}
 .container{max-width:1024px;margin:0 auto}
 .container:after{content:'';display:table;clear:both}
-.contact{width:1#00%;min-height:10px;padding:50px 0;background-color:#ecf0f1;text-align:left}
+.contact{width:1#00%;min-height:500px;padding:50px 0;background-color:#ecf0f1;text-align:left}
 .contact__title{font-size:28px;font-weight:400;margin-bottom:10px;text-transform:capitalize;text-align:center}
 .contact__descr{font-size:14px;font-weight:400;margin-bottom:55px;text-align:center}
 .contact__form{display:block;float:left;max-width:465px;margin:0 15px 0 40px}
@@ -137,7 +137,9 @@ portfolio_stripe{display:block;}
 .page-header__nav{margin:30px 10px 0 0}
 .portfolio__item{width:640px;height:190px;margin:0 5% 35px}
 .team__member{width:180px;margin:0 10px 30px}}@media screen and (max-width:640px){.contact{padding:50px 10px}
-
+.contact__form{float:none;max-width:90%;margin:0 auto 50px}
+.contact__card{display:block;width:230px;margin:20px auto}
+.contact__card-title{text-align:center}
 .page-header__logo h1{display:none}
 .page-header__logo span{display:none}
 .page-header__nav li{margin-left:0}
@@ -148,7 +150,7 @@ portfolio_stripe{display:block;}
 .team__member-info{height:auto}
 .team__member-descr{display:none}
 .team__member-soc{width:260px;top:220px;margin-left:-130px}
-}@media screen and (max-width:480px)
+}@media screen and (max-width:480px){.contact__form-submit{float:none;margin:0 auto}
 .page-header{min-height:50px}
 .page-header__logo{display:none}
 .page-header__nav{float:none;margin:10px auto;text-align:center}
