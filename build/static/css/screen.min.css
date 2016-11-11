@@ -91,6 +91,9 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .portfolio__filter-btn{display:inline-block;font-size:14px;text-transform:uppercase;padding:10px;color:#fff;background-color:#990000;-webkit-transition:background-color .2s;-o-transition:background-color .2s;transition:background-color .2s}
 .portfolio__filter-btn:hover,.portfolio__filter-btn.is-selected{background-color:#4d0000}
 .portfolio__content{margin:45px auto 60px}
+
+portfolio_stripe{display:block;}
+
 .portfolio__item{position:relative;display:inline-block;width:180px;height:180px;margin:0 30px 35px;-webkit-border-radius:50%;border-radius:50%;overflow:hidden}
 .portfolio__item.is-hidden{display:none}
 .portfolio__item-img{display:inline-block;height:100%;margin:0 auto}
