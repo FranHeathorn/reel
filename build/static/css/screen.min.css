@@ -92,7 +92,9 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .portfolio__filter-btn:hover,.portfolio__filter-btn.is-selected{background-color:#4d0000}
 .portfolio__content{margin:45px auto 60px}
 
-portfolio_stripe{display:block;}
+.portfolio_stripe{display:block; width:100%;min-height:645px;padding-top:55px;background-color:#990000;text-align:center}
+
+.portfolio_stripe2{display:block; width:100%;min-height:645px;padding-top:55px;background-color:#FFFFFF;text-align:center}
 
 .portfolio__item{position:relative;display:inline-block;width:180px;height:180px;margin:0 30px 35px;-webkit-border-radius:50%;border-radius:50%;overflow:hidden}
 .portfolio__item.is-hidden{display:none}
@@ -135,7 +137,7 @@ portfolio_stripe{display:block;}
 
 .page-header__logo{margin:25px 0 0 10px}
 .page-header__nav{margin:30px 10px 0 0}
-.portfolio__item{width:640px;height:190px;margin:0 5% 35px}
+.portfolio__item{width:190px;height:190px;margin:0 5% 35px}
 .team__member{width:180px;margin:0 10px 30px}}@media screen and (max-width:640px){.contact{padding:50px 10px}
 .contact__form{float:none;max-width:90%;margin:0 auto 50px}
 .contact__card{display:block;width:230px;margin:20px auto}
@@ -157,5 +159,5 @@ portfolio_stripe{display:block;}
 .page-header__nav li{margin-left:0}
 .page-footer{padding:0 10px 30px;text-align:center}
 .page-footer__copyright{margin:35px auto 0}
-.page-footer__gotop{width:60px;float:none;width:100%;margin:20px auto 0}
+.page-footer__gotop{float:none;width:100%;margin:20px auto 0}
 .portfolio__filter li{display:block}}
