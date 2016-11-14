@@ -90,7 +90,7 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .portfolio__filter li{display:inline-block;margin:0 10px;cursor:pointer}
 .portfolio__filter-btn{display:inline-block;font-size:14px;text-transform:uppercase;padding:10px;color:#fff;background-color:#990000;-webkit-transition:background-color .2s;-o-transition:background-color .2s;transition:background-color .2s}
 .portfolio__filter-btn:hover,.portfolio__filter-btn.is-selected{background-color:#4d0000}
-.portfolio__content{margin:45px auto 60px}
+.portfolio__content{display:inline-block; margin:45px auto 60px}
 
 .portfolio_stripe{display:inline-block; width:100%;min-height:440px;padding-top:55px;background-color:#990000;text-align:center}
 
@@ -130,10 +130,10 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .team__member-icon{display:block;width:45px;height:50px;margin-left:-3px;color:#fff;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;font-size:0}
 .team__member-icon:hover{color:#c1c1c1}
 .team__member-icon:before{display:block;font-family:FontAwesome;font-size:30px;line-height:50px}
-.team__member-icon.fb:before{content:"\f09a"}
+.team__member-icon.linkedin:before{content:"\f09a"}
 .team__member-icon.tw:before{content:"\f099"}
 .team__member-icon.gplus:before{content:"\f0d5"}
-@media screen and (max-width:1000px){.portfolio__item{width:170px;height:170px;margin:0 1.5% 35px}.team__member{width:190px;margin:0 20px 30px}}@media screen and (max-width:800px){.contact__form{max-width:50%;margin:0 2% 0 8%}
+.team__member-icon.li:before{content:"\f17d"}@media screen and (max-width:1000px){.portfolio__item{width:170px;height:170px;margin:0 1.5% 35px}.team__member{width:190px;margin:0 20px 30px}}@media screen and (max-width:800px){.contact__form{max-width:50%;margin:0 2% 0 8%}
 
 .page-header__logo{margin:25px 0 0 10px}
 .page-header__nav{margin:30px 10px 0 0}
