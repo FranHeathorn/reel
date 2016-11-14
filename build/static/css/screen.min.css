@@ -45,7 +45,7 @@ h3 {
 p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decoration:none}html,body{width:100%;height:100%}body{background-color:#fff;font-family:"Lato",sans-serif;color:#424242}
 .container{max-width:1024px;margin:0 auto}
 .container:after{content:'';display:table;clear:both}
-.contact{width:1#00%;min-height:500px;padding:50px 0;background-color:#ecf0f1;text-align:left}
+.contact{width:100%;min-height:500px;padding:50px 0;background-color:#ecf0f1;text-align:left}
 .contact__title{font-size:28px;font-weight:400;margin-bottom:10px;text-transform:capitalize;text-align:center}
 .contact__descr{font-size:14px;font-weight:400;margin-bottom:55px;text-align:center}
 .contact__form{display:block;float:left;max-width:465px;margin:0 15px 0 40px}
@@ -90,11 +90,11 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .portfolio__filter li{display:inline-block;margin:0 10px;cursor:pointer}
 .portfolio__filter-btn{display:inline-block;font-size:14px;text-transform:uppercase;padding:10px;color:#fff;background-color:#990000;-webkit-transition:background-color .2s;-o-transition:background-color .2s;transition:background-color .2s}
 .portfolio__filter-btn:hover,.portfolio__filter-btn.is-selected{background-color:#4d0000}
-.portfolio__content{display:inline-block; margin:45px auto 60px}
+.portfolio__content{display:inline-block; width:100%; margin:45px auto 60px}
 
-.portfolio_stripe{display:inline-block; width:100%;min-height:440px;padding-top:55px;background-color:#990000;text-align:center}
+.portfolio_stripe{display:inline-block; width:100% ;min-height:440px;padding-top:55px;background-color:#990000;text-align:center}
 
-.portfolio_stripe2{display:inline-block; width:100%;min-height:440px;padding-top:55px;background-color:#FFFFFF;text-align:center}
+.portfolio_stripe2{display:inline-block; width:100% ;min-height:440px;padding-top:55px;background-color:#FFFFFF;text-align:center}
 
 .portfolio__item{position:relative;display:inline-block;width:180px;height:180px;margin:0 30px 35px;-webkit-border-radius:50%;border-radius:50%;overflow:hidden}
 .portfolio__item.is-hidden{display:none}
@@ -124,16 +124,19 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .team__member-name{margin-bottom:5px;font-size:18px}
 .team__member-role{display:block;margin-bottom:20px;font-size:13px;font-style:italic;text-transform:capitalize}
 .team__member-descr{text-align:left;line-height:1.3}
-.team__member-soc{display:block;position:absolute;width:180px;height:50px;top:95px;left:50%;margin-left:-90px;background-color:#990000;background-color:rgba(153,0,0,.8);white-space:nowrap;overflow:hidden;opacity:0;visibility:hidden;-webkit-transition:all .5s;-o-transition:all .5s;transition:all .5s}
-.team__member:hover .team__member-soc{opacity:1;visibility:visible}
+.team__member-soc{display:block;position:absolute;width:90px;height:50px;top:95px;left:50%;margin-left:-90px;background-color:#990000;background-color:rgba(153,0,0,.8);white-space:nowrap;overflow:hidden;opacity:0;visibility:hidden;-webkit-transition:all .5s;-o-transition:all .5s;transition:all .5s}
+.team__member:hover 
+.team__member-soc{opacity:1;visibility:visible}
 .team__member-soc li{display:inline-block}
 .team__member-icon{display:block;width:45px;height:50px;margin-left:-3px;color:#fff;-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;font-size:0}
 .team__member-icon:hover{color:#c1c1c1}
 .team__member-icon:before{display:block;font-family:FontAwesome;font-size:30px;line-height:50px}
-.team__member-icon.linkedin:before{content:"\f09a"}
+.team__member-icon.fb:before{content:"\f09a"}
 .team__member-icon.tw:before{content:"\f099"}
 .team__member-icon.gplus:before{content:"\f0d5"}
-.team__member-icon.li:before{content:"\f17d"}@media screen and (max-width:1000px){.portfolio__item{width:170px;height:170px;margin:0 1.5% 35px}.team__member{width:190px;margin:0 20px 30px}}@media screen and (max-width:800px){.contact__form{max-width:50%;margin:0 2% 0 8%}
+.team__member-icon.li:before{content:"\f17d"}@media screen and (max-width:1000px){
+.portfolio__item{width:170px;height:170px;margin:0 1.5% 35px}
+.team__member{width:190px;margin:0 20px 30px}}@media screen and (max-width:800px){.contact__form{max-width:50%;margin:0 2% 0 8%}
 
 .page-header__logo{margin:25px 0 0 10px}
 .page-header__nav{margin:30px 10px 0 0}
