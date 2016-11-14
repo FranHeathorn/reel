@@ -92,9 +92,9 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .portfolio__filter-btn:hover,.portfolio__filter-btn.is-selected{background-color:#4d0000}
 .portfolio__content{margin:45px auto 60px}
 
-.portfolio_stripe{display:block; width:100%;min-height:440px;padding-top:55px;background-color:#990000;text-align:center}
+.portfolio_stripe{display:inline-block; width:100%;min-height:440px;padding-top:55px;background-color:#990000;text-align:center}
 
-.portfolio_stripe2{display:block; width:100%;min-height:440px;padding-top:55px;background-color:#FFFFFF;text-align:center}
+.portfolio_stripe2{display:inline-block; width:100%;min-height:440px;padding-top:55px;background-color:#FFFFFF;text-align:center}
 
 .portfolio__item{position:relative;display:inline-block;width:180px;height:180px;margin:0 30px 35px;-webkit-border-radius:50%;border-radius:50%;overflow:hidden}
 .portfolio__item.is-hidden{display:none}
