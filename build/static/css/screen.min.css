@@ -132,7 +132,7 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .team__member-icon:hover{color:#c1c1c1}
 .team__member-icon:before{display:block;font-family:FontAwesome;font-size:30px;line-height:50px}
 .team__member-icon.li:before{content:"\f08c"}
-.team__member-icon.tw:before{content:"\f099"}
+.team__member-icon.tw:before{content:"\f081"}
 .team__member-icon.wp:before{content:"\f19a"}
 .team__member-icon.li:before{content:"\f17d"}@media screen and (max-width:1000px){
 .portfolio__item{width:170px;height:170px;margin:0 1.5% 35px}
@@ -155,7 +155,8 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 .team__member-info{height:auto}
 .team__member-descr{display:none}
 .team__member-soc{width:260px;top:220px;margin-left:-130px}
-}@media screen and (max-width:480px){.contact__form-submit{float:none;margin:0 auto}
+}@media screen and (max-width:480px){
+.contact__form-submit{float:none;margin:0 auto}
 .page-header{min-height:50px}
 .page-header__logo{display:none}
 .page-header__nav{float:none;margin:10px auto;text-align:center}
