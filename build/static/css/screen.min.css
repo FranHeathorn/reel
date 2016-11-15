@@ -94,6 +94,8 @@ p{font-size:15px;font-weight:lighter;color:#909090}a{font-size:20px;text-decorat
 
 .portfolio_stripe{display:inline-block; width:100% ;min-height:440px;padding-top:55px;background-color:#990000;text-align:center}
 
+.portfolio_stripe2{display:inline-block; width:100% ;min-height:440px;padding-top:55px;background-color:#333333;text-align:center}
+
 .portfolio_stripe2{display:inline-block; width:100% ;min-height:440px;padding-top:55px;background-color:#FFFFFF;text-align:center}
 
 .portfolio__item{position:relative;display:inline-block;width:180px;height:180px;margin:0 30px 35px;-webkit-border-radius:50%;border-radius:50%;overflow:hidden}
